@@ -3,7 +3,7 @@ package com.Samson.attemptone;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod("attemptOne")
+@Mod("attemptone")
 public class attemptone {
 	
 	public attemptone() {
