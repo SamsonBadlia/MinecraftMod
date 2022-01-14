@@ -1,5 +1,6 @@
 package com.Samson.attemptone;
 
+import com.Samson.attemptone.init.BlockInIt;
 import com.Samson.attemptone.init.ItemInit;
 
 import net.minecraft.world.item.CreativeModeTab;
@@ -27,6 +28,7 @@ public class attemptone {
 	public attemptone() {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		ItemInit.ITEMS.register(bus);
+		BlockInIt.BLOCKS.register(bus);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 	

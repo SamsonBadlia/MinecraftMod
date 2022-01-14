@@ -1,3 +1,5 @@
 {
-	"item.attemptone.example_item": "Bababooey"
+	"item.attemptone.example_item": "example_item",
+	"itemGroup.attemptone": "example_item"
+	"block.attemptone.example_block" : "example_block"
 }
