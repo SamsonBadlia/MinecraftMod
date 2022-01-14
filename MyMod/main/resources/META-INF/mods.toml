@@ -1,0 +1,37 @@
+
+modLoader="javafml"
+
+loaderVersion="[39,)" 
+
+license="Anyone"
+
+[[mods]] 
+
+modId="attemptone" 
+
+version="${file.jarVersion}" 
+
+displayName="Attempt One" 
+
+logoFile="examplemod.png" 
+
+credits="Let's see how attempt one goes" 
+
+authors="Samson" 
+
+description='''
+First attempt at making a minecraft mod. Just going to make a sword for now
+ 
+'''
+[[dependencies.attemptone]]
+    modId="forge" 
+    mandatory=true 
+    versionRange="[39,)" 
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.attemptone]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
